@@ -1,0 +1,40 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// ...
+$fa-font-path: "../webfonts";
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+@import '~@fortawesome/fontawesome-free/scss/regular.scss';
+
+.app-form > div {
+    margin-top: 1em;
+}
+.padding {
+    padding: 1em;
+}
+.text-center .pagination{
+    justify-content: center;
+}
+.nav-link i{
+    margin-right: 8px;
+}
+.card-product{
+    max-width: 400px;
+    margin: 1em 0;
+    strong{
+        text-transform: uppercase;
+    }
+    &.total{
+        margin-top: 2em;
+        padding-top: 2em;
+        border-top: solid 1px #eee;
+    }
+}
